@@ -352,6 +352,75 @@ nav ul li a{
     margin: auto;
 
 }
+
+/* footer start  */
+footer{
+    background-color: #01ACFD;
+    padding: 112px 0 150px 0;
+}
+
+.footer-content{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+.logo-title-img{
+    display: flex;
+    align-items: center;
+}
+.footer-img-logo{
+    width: 20%;
+    text-align: left;
+}
+.footer-title{
+    font-size: 2.6rem;
+    font-weight: bold;
+    color: white;
+    max-width: 200px;
+}
+.footer-des{
+    max-width: 400px;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-top: 35px;
+    margin-left: 10px;
+    font-weight: 300;
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 32px;
+}
+
+ul {
+    margin-top: 32px;
+}
+ul li{
+    list-style: none;
+    margin: 20px 0;
+}
+ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+ul li a:nth-child(4){
+    font-size: 300px;
+}
+
+.icon-title{
+    font-size: 1.7rem;
+    color: white;
+    margin-bottom: 35px;
+}
+
+
+
+
 /* mobile responsive start */
 @media screen and (max-width:576px){
     .main-menu, .menu-button, .logo-title, .curriculum-icon-btn{
@@ -398,5 +467,14 @@ nav ul li a{
    .stories-card{
     grid-template-columns: repeat(2,1fr);
     padding: 0 20px;
+   }
+   /* footer  */
+
+   .footer-content{
+    flex-direction: column;
+    padding: 20px;
+   }
+   .footer-des{
+    margin:10px 0;
    }
 }
