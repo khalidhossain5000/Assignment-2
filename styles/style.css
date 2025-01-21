@@ -243,15 +243,15 @@ nav ul li a{
 }
 
 /* our stories css  */
+.our-stories{
+    background:url(../assets/bg.png), linear-gradient(to top,#fea101a3 0%,#FFFFFF 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top bottom;
+}
 .stories-title{
     margin-bottom: 80px;
     padding-top: 80px;
-}
-.our-stories{
-    background: linear-gradient(to top,#fea101a3 0%,#FFFFFF 100%), url(../assets/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
 }
 .stories-card{
     display: grid;
@@ -267,24 +267,15 @@ nav ul li a{
     text-align: center;
 }
 .stories-card-1{
-    grid-row: span 5;
+    grid-row: span 2;
     background-color: #ffffff;
     width: 540px;
     
-    
 }
-.stories-card-2{
+.stories-card-2, .stories-card-3, .stories-card-4, .stories-card-5{
     background-color: #ffffff;
 }
-.stories-card-3{
-    background-color: #ffffff;
-}
-.stories-card-4{
-    background-color: #ffffff;
-}
-.stories-card-5{
-    background-color: #ffffff;
-}
+
 .stories-card-title-1{
     color: #000000;
     font-size: 1.5rem;
@@ -300,8 +291,8 @@ nav ul li a{
     color: #666666;
     font-weight: 500;
     max-width: 21vw;
-    /* margin: 47px 34px 38px 38px; */
     padding: 30px;
+    padding-bottom: 0px;
 }
 .stories-btn{
     border: none;
@@ -316,6 +307,9 @@ nav ul li a{
     width: 100%;
     border-radius: 15px 15px 0px 0px;
 }
+.stories-card-item{
+    border-radius: 15px;
+} 
 .stories-card-2{
     max-width: 290px;
     text-align: left;
@@ -340,11 +334,23 @@ nav ul li a{
     background-color: #5D58F0;
 }
 #card-btn-1{
-    margin-top: -15px;
+    margin-top: -30px;
 }
 
 #card-rem{
     margin-top: -30px;
+}
+.our-stories-btn{
+    text-align: center;
+    padding: 90px 0 50px 0;
+}
+.stories-bt{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+
 }
 /* mobile responsive start */
 @media screen and (max-width:576px){
@@ -381,6 +387,16 @@ nav ul li a{
     flex-direction: column;
    }
    .card-description{
+    padding: 0 20px;
+   }
+
+   /* our stories  */
+   .stories-card-1{
+    display: none;
+   }
+
+   .stories-card{
+    grid-template-columns: repeat(2,1fr);
     padding: 0 20px;
    }
 }
