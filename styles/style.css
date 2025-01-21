@@ -107,6 +107,7 @@ nav ul li a{
     align-items: center;
     justify-content: space-between;
     margin-top: 30px;
+    margin-bottom: 60px;
 }
 /* .banner-content{
     max-width: 640px;
@@ -145,6 +146,7 @@ nav ul li a{
     max-width: 100%;
     
 }
+
 /* mobile responsive start */
 @media screen and (max-width:576px){
     .main-menu, .menu-button, .logo-title{
@@ -169,6 +171,7 @@ nav ul li a{
         padding: 20px;
     }
     .banner-content{
-        
+        margin-top: 20px;
     }
+   
 }
