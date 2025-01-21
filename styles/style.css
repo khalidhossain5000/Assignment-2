@@ -146,7 +146,76 @@ nav ul li a{
     max-width: 100%;
     
 }
-
+/* curriculum section start  */
+.curriculum{
+    background-image: url(../assets/bg.png);
+}
+.curriculum-title{
+    font-size: 2.8rem;
+    color: #000000;
+    font-weight: bold;
+    line-height: 3.5rem;
+    text-align: center;
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #202020;
+    margin-top: 32px;
+}
+.card-description{
+    color: #808080;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 23px;
+    line-height: 2rem;
+}
+.card-button{
+    color: #22a6ed;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    margin: 33px auto 52px auto;
+}
+/* card allignment  */
+.curriculum-card{
+    margin-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 80px 0;
+    gap: 25px;
+   
+    
+}
+.card{
+    max-width: 370px;
+    height: auto;
+    padding: 10px 60px;
+    border: 1px solid #DEF5FF;
+    border-radius: 20px;
+    box-shadow: 0 0 29 1 rgba(0, 0, 0, 0.05);
+}
+.card-image{
+    max-width: 100%;
+    margin-top: 52px;
+}
+#card-btn-2{
+    color: #F0AA00;
+}
+#card-btn-3{
+    color: #8700FF;
+}
+#card-item-1{
+    background: linear-gradient(#75d1f9 0%,#FFFFFF 40%);
+}
+#card-item-2{
+    background: linear-gradient(#dfae44 0%,#FFFFFF 40%);
+}
+#card-item-3{
+    background: linear-gradient(#a96bfa 0%,#FFFFFF 40%);
+}
 /* mobile responsive start */
 @media screen and (max-width:576px){
     .main-menu, .menu-button, .logo-title{
