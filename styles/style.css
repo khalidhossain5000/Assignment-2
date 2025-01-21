@@ -151,7 +151,7 @@ nav ul li a{
     background-image: url(../assets/bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:  center center;
+    background-position:  top center;
 }
 .curriculum-title{
     font-size: 2.8rem;
@@ -179,6 +179,7 @@ nav ul li a{
     font-weight: bold;
     border: none;
     margin: 33px auto 52px auto;
+    background: none;
 }
 /* card allignment  */
 .curriculum-card{
@@ -219,6 +220,27 @@ nav ul li a{
 #card-item-3{
     background: linear-gradient(#a96bfa 0%,#FFFFFF 40%);
 }
+
+/* currciulm btn  */
+.curriculum-icon-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.curriculum-btn{
+    width: 60px;
+    height: 60px;
+    background-color: var(--btn-bg-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#icon-btn{
+    font-size: 1.5rem;
+    color: white;
+}
 /* mobile responsive start */
 @media screen and (max-width:576px){
     .main-menu, .menu-button, .logo-title{
@@ -245,5 +267,15 @@ nav ul li a{
     .banner-content{
         margin-top: 20px;
     }
-   
+   /* curriculum css  */
+   .curriculum{
+    padding: 5px 20px;
+    text-align: center;
+   }
+   .curriculum-card{
+    flex-direction: column;
+   }
+   .curriculum-icon-btn{
+    display: none;
+   }
 }
