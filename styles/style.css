@@ -280,12 +280,14 @@ nav ul li a{
 
 
 /* OUR STORIES NEW LATEST AFTER HTML RECODE  */
+
 .our-stories{
-    padding: 60px auto;
     background:url(../assets/bg.png), linear-gradient(to top,#fea101a3 0%,#FFFFFF 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top left;
+    margin-top: 6rem;
+    
 }
 .s-title{
     color: #000000;
@@ -293,51 +295,56 @@ nav ul li a{
     font-weight: bold;
     line-height: 3.6rem;
     text-align: center;
-    margin-bottom: 80px;
+    
 }
 
 /* card item style  */
+
+#stories-card-item-1{
+    grid-row: span 2;
+    border-radius: 0 0 15px 15px;
+    max-width: 540px;
+}
+.our-stories-title{
+    padding: 90px 0;
+}
 .stories-card{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    justify-items: center;
     gap: 25px;
-    width: 100%;
-    box-sizing: border-box;
     overflow: hidden;
 }
+
 .card-items{
     background-color: #fff;
+    border-radius: 15px;
 }
+/* all button style of our stories btn  */
 .card-global-btn{
     border: none;
     background: #3CD8E8;
-    padding: 14px 19px;
-    border-radius: 49px;
+    padding: 0.9rem 1.2rem;
+    border-radius: 3.2rem;
     color: white;
     font-weight: 500;
     font-size: 1rem;
-}
-#card-item-1-btn{
-    margin: -30px 0 0 38px;
+    
 }
 .card-item-1-title{
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 2.3rem;
     color: #000000;
-    margin: 36px 61px 0px 38px;
+    margin: 2.25rem 3.82rem 0 2.4rem;
 }
 .card-item-1-description{
     font-size: 1rem;
     font-weight: 500;
     color: #666666;
     line-height: 1.7rem;
-    margin: 47px 61px 34px 38px;
+    margin: 2.25rem 3.82rem 0 2.4rem;
 }
-#stories-card-item-1{
-    grid-row: span 2;
-}
+
 
 /* card-2-3-4-5 */
 .stories-card-sub-title{
@@ -345,53 +352,60 @@ nav ul li a{
     font-size: 1rem;
     font-weight: bold;
     line-height: 1.7rem;
-    max-width: 290px;
-    margin: 17px 54px 33px 38px;
+    margin: 0rem 3.3rem 2.1rem 2.4rem;
 }
 
 /* button child div style  */
 .child-card-items-btn{
-    margin: -30px 0 0 38px;
+  
 }
 
 /* CHILD BUTTON STYLE  */
     .card-child-global-btn{
         color: #FFFFFF;
         font-size: 1rem;
-        font-weight: 600;
+        font-weight: 500;
         line-height: 1.9rem;
-        padding: 10px 19px;
+        padding: 0.5rem .9rem;
         border: none;
-        border-radius: 49px;
+        border-radius: 3.1rem;
 
     }
-#card-item-2-btn, #card-item-5-btn, #card-item-4-btn{
+#card-item-2-btn, 
+#card-item-5-btn, 
+#card-item-4-btn{
     background-color: #95B226;
 }
 #card-item-3-btn{
     background-color: #5D58F0;
 }
-.card-items{
-    border-radius: 15px;
-}
+
 .card-child-item-image{
     width: 100%;
     border-radius: 15px 15px 0 0;
 }
 .card-item-1-image{
     border-radius: 15px 15px 0 0;
+} 
+
+/* card button to the top css  */
+#s-btn-1 {
+    position: relative;
+    top: -25px;
+    left: 2.9rem;
 }
 
-/* test  */
-
-
-#stories-card-item-2,
-#stories-card-item-3,
-#stories-card-item-4{
-    max-width: 370px;
+/* remaining 2 to 5 btn styles */
+.card-child-global-btn{
+    position: relative;
+    top: -25px;
+    left: 2.9rem;
+    font-weight: 500;
 }
-
-
+/* child card width  */
+.max-width-child{
+    max-width: 290px;
+}
 /* footer start  */
 footer{
     background-color: #01ACFD;
@@ -490,11 +504,14 @@ ul li a{
    }
    .curriculum-card{
     flex-direction: column;
+    gap: 90px;
    }
    .card-description{
-    padding: 0 20px;
+    padding: 5px 0px;
    }
-
+   .card-button{
+    margin: 10px 0;
+   }
    /* our stories  */
  
    #stories-card-item-1{
@@ -503,20 +520,30 @@ ul li a{
 
    .stories-card{
     grid-template-columns: repeat(2,1fr);
+    gap: 10px;
     padding: 20px;
-    gap: 12px;
    }
+  
+   .stories-card-sub-title {
+    margin: 9px 13px;
+    font-size: 13px;
+}
 
-
-   .stories-card-sub-title{
-    margin: 11px 22px;
-   }
-.card-child-global-btn{
-    padding: 5px 8px;
+.card-child-global-btn {
+    position: relative;
+    top: -19px;
+    left: 11px;
+    font-size: 9px;
+}
+.card-child-global-btn {
     font-size: .9rem;
-    max-width: 100%;
+    border-radius: 29px;
+    padding: 0px 15px;
     overflow: hidden;
-    
+}
+
+.card-items{
+    overflow: hidden;   
 }
    /* footer  */
    footer{
