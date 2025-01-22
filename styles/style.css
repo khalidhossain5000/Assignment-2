@@ -126,11 +126,11 @@ nav ul li a{
 /* .banner-content{
     max-width: 640px;
 } */
-.banner-title{
+.banner-title {
     font-size: 3.5rem;
     font-weight: bold;
     line-height: 3.9rem;
-    max-width: 640px;
+    max-width: 560px;
 }
 #custom-color-1{
     color: var(--btn-bg-color);
@@ -138,12 +138,11 @@ nav ul li a{
 #custom-color-2{
     color: #01ACFD;
 }
-.banner-description{
+.banner-description {
     color: #111111;
     font-size: 1.25rem;
-    max-width: 640px;
+    max-width: 560px;
     margin: 24px 0;
-    
 }
 .banner-button{
     padding: 10px 47px;
