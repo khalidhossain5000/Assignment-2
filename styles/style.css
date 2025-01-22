@@ -257,6 +257,11 @@ nav ul li a{
     align-items: center;
     justify-content: center;
 }
+.curriculum-btn:hover{
+    cursor: pointer;
+    background-color: orangered;
+    transition: .5s;
+}
 #icon-btn{
     font-size: 1.5rem;
     color: white;
@@ -355,10 +360,6 @@ nav ul li a{
     margin: 0rem 3.3rem 2.1rem 2.4rem;
 }
 
-/* button child div style  */
-.child-card-items-btn{
-  
-}
 
 /* CHILD BUTTON STYLE  */
     .card-child-global-btn{
@@ -521,7 +522,7 @@ ul li a{
    .stories-card{
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
-    padding: 20px;
+    padding: 18px;
    }
   
    .stories-card-sub-title {
@@ -532,8 +533,10 @@ ul li a{
 .card-child-global-btn {
     position: relative;
     top: -19px;
-    left: 11px;
+    left: 5px;
     font-size: 9px;
+    line-height: 1.7rem;
+    text-align: center;
 }
 .card-child-global-btn {
     font-size: .9rem;
