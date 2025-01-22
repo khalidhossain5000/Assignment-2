@@ -248,108 +248,8 @@ nav ul li a{
     color: white;
 }
 
-/* our stories css  */
-/* .our-stories{
-    background:url(../assets/bg.png), linear-gradient(to top,#fea101a3 0%,#FFFFFF 100%);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top bottom;
-    
-} */
 
-/* .stories-card{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,3fr);
-    gap: 30px;
-    max-width: 100%;
-} */
-/*  
-
-.stories-card-1{
-    grid-row: span 2;
-    background-color: #ffffff;
-    width: 540px;
-    padding-bottom: 30px;
-    
-}
-
-.stories-card-title-1{
-    color: #000000;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-    font-weight: bold;
-    max-width: 21vw;
-    margin-top: 33px;
-    padding: 30px 30px 0 30px;
-}
-
-
-.stories-card-description{
-    font-size: 1rem;
-    line-height: 1.9rem;
-    color: #666666;
-    font-weight: 500;
-    max-width: 21vw;
-    padding: 30px;
-    padding-bottom: 0px;
-}
-.stories-card-2, 
-.stories-card-3, 
-.stories-card-4, 
-.stories-card-5{
-    background-color: #ffffff;
-}
-.stories-btn{
-    border: none;
-    background: #3CD8E8;
-    padding: 14px 19px;
-    border-radius: 49px;
-    color: white;
-    font-weight: 500;
-    font-size: 1rem;
-}
-.stories-card-image{
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-}
-.stories-card-item{
-    border-radius: 15px;
-} 
-
-
-.stories-card-item{
-    max-width: 290px;
-    text-align: left;
-    max-width: 100%;
-
-}
-
-.stories-card-title-2{
-    margin: 20px 38px 30px 38px;
-    font-size: 1.3rem;
-    font-weight: bold;
-    line-height: 1.9rem;
-    color: #000000;
-}
-
-.stories-card-1-btn{
-    margin: 0px 38px 0px 38px;
-}
-.stories-card-2-btn{
-    background-color: #95B226;
-    margin: 0px 38px 0px 38px;
-} */
-/* #s-btn-color{
-    background-color: #5D58F0;
-}
-#card-btn-1{
-    margin-top: -30px;
-}
-
-#card-rem{
-    margin-top: -30px;
-} */
+/* our stories button  */
 .our-stories-btn{
     text-align: center;
     padding: 90px 0 50px 0;
@@ -362,44 +262,96 @@ nav ul li a{
     margin: auto;
 
 }
-/* OUR STORIES LATEST NEW VERSION CODE HERE  */
-
-/* .stories-title h3{
-    color: #000000;
-    font-size: 2.9rem;
-    font-weight: bold;
-    line-height: 3.5rem;
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 80px;
-}
-
-.stories-card{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 30px;
-} 
-
-.stories-card-1{
-    grid-row: span 2;
-    
-} */
 
 
 
 /* OUR STORIES NEW LATEST AFTER HTML RECODE  */
+.our-stories{
+    margin: 60px auto;
+    background:url(../assets/bg.png), linear-gradient(to top,#fea101a3 0%,#FFFFFF 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s-title{
+    color: #000000;
+    font-size: 2.9rem;
+    font-weight: bold;
+    line-height: 3.6rem;
+    text-align: center;
+    margin-bottom: 80px;
+}
 
+/* card item style  */
+.stories-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    gap: 25px;
+}
+.card-items{
+    background-color: #fff;
+}
+.card-global-btn{
+    border: none;
+    background: #3CD8E8;
+    padding: 14px 19px;
+    border-radius: 49px;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+}
+#card-item-1-btn{
+    margin: -30px 0 0 38px;
+}
+.card-item-1-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: #000000;
+    margin: 36px 61px 0px 38px;
+}
+.card-item-1-description{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #666666;
+    line-height: 1.7rem;
+    margin: 47px 61px 34px 38px;
+}
+#stories-card-item-1{
+    grid-row: span 2;
+}
 
+/* card-2-3-4-5 */
+.stories-card-sub-title{
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.7rem;
+    margin: 24px 54px 33px 38px;
+}
+.child-card-items-btn{
+    margin: -20px 0px 0px 38px;
+}
+#card-item-2-btn, #card-item-5-btn{
+    background-color: #95B226;
+}
+#card-item-3-btn{
+    background-color: #5D58F0;
+}
+.card-items{
+    border-radius: 15px;
+}
+.card-child-item-image{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.card-item-1-image{
+    border-radius: 15px 15px 0 0;
+}
 
-
-
-
-
-
-
-
-
-
+#custom-btn{
+    margin-top: -35;
+}
 
 
 
