@@ -45,6 +45,19 @@
 }
 
 /* header start */
+/* marquee tag start  */
+.marquee-tag{
+    background-color: blue;
+    height: 11vh;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* marquee tag style end here  */
 nav{
     display: flex;
     justify-content: space-between;
