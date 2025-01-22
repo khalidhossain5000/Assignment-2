@@ -302,6 +302,9 @@ nav ul li a{
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
     gap: 25px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 .card-items{
     background-color: #fff;
@@ -342,7 +345,7 @@ nav ul li a{
     font-size: 1rem;
     font-weight: bold;
     line-height: 1.7rem;
-    
+    max-width: 290px;
     margin: 17px 54px 33px 38px;
 }
 
@@ -382,6 +385,11 @@ nav ul li a{
 /* test  */
 
 
+#stories-card-item-2,
+#stories-card-item-3,
+#stories-card-item-4{
+    max-width: 370px;
+}
 
 
 /* footer start  */
@@ -493,16 +501,22 @@ ul li a{
     display: none;
    }
 
-
    .stories-card{
     grid-template-columns: repeat(2,1fr);
     padding: 20px;
     gap: 12px;
    }
 
+
+   .stories-card-sub-title{
+    margin: 11px 22px;
+   }
 .card-child-global-btn{
-    padding: 5px 10px;
+    padding: 5px 8px;
     font-size: .9rem;
+    max-width: 100%;
+    overflow: hidden;
+    
 }
    /* footer  */
    footer{
