@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* quicksand font  */
@@ -267,10 +268,11 @@ nav ul li a{
 
 /* OUR STORIES NEW LATEST AFTER HTML RECODE  */
 .our-stories{
-    margin: 60px auto;
+    padding: 60px auto;
     background:url(../assets/bg.png), linear-gradient(to top,#fea101a3 0%,#FFFFFF 100%);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top left;
 }
 .s-title{
     color: #000000;
@@ -327,12 +329,27 @@ nav ul li a{
     font-size: 1rem;
     font-weight: bold;
     line-height: 1.7rem;
-    margin: 24px 54px 33px 38px;
+    
+    margin: 17px 54px 33px 38px;
 }
+
+/* button child div style  */
 .child-card-items-btn{
-    margin: -20px 0px 0px 38px;
+    margin: -30px 0 0 38px;
 }
-#card-item-2-btn, #card-item-5-btn{
+
+/* CHILD BUTTON STYLE  */
+    .card-child-global-btn{
+        color: #FFFFFF;
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.9rem;
+        padding: 10px 19px;
+        border: none;
+        border-radius: 49px;
+
+    }
+#card-item-2-btn, #card-item-5-btn, #card-item-4-btn{
     background-color: #95B226;
 }
 #card-item-3-btn{
@@ -349,60 +366,7 @@ nav ul li a{
     border-radius: 15px 15px 0 0;
 }
 
-#custom-btn{
-    margin-top: -35;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* test  */
 
 
 
@@ -511,17 +475,22 @@ ul li a{
    }
 
    /* our stories  */
-   .stories-card-1{
+ 
+   #stories-card-item-1{
     display: none;
    }
 
-   /* .stories-card{
+
+   .stories-card{
     grid-template-columns: repeat(2,1fr);
-    padding: 0 20px;
+    padding: 20px;
+    gap: 12px;
    }
-   .stories-card-item{
-    max-width: 100%;
-   } */
+
+.card-child-global-btn{
+    padding: 5px 10px;
+    font-size: .9rem;
+}
    /* footer  */
    footer{
    max-width: 100%;
@@ -534,3 +503,6 @@ ul li a{
     margin:10px 0;
    }
 }
+
+
+/* very small device responsive design  */
