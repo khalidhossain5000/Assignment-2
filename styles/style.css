@@ -188,14 +188,14 @@ nav ul li a{
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    padding: 80px 0;
+    margin: 80px 0;
     gap: 25px;
    
     
 }
 .card{
     max-width: 370px;
-    height: auto;
+    height: 480px;
     padding: 10px 60px;
     border: 1px solid #DEF5FF;
     border-radius: 20px;
@@ -205,11 +205,17 @@ nav ul li a{
     max-width: 100%;
     margin-top: 52px;
 }
+#card-btn-1{
+    color: red;
+    
+}
 #card-btn-2{
     color: #F0AA00;
+    
 }
 #card-btn-3{
     color: #8700FF;
+    
 }
 #card-item-1{
     background: linear-gradient(#75d1f9 0%,#FFFFFF 40%);
@@ -243,37 +249,29 @@ nav ul li a{
 }
 
 /* our stories css  */
-.our-stories{
+/* .our-stories{
     background:url(../assets/bg.png), linear-gradient(to top,#fea101a3 0%,#FFFFFF 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top bottom;
-}
-.stories-title{
-    margin-bottom: 80px;
-    padding-top: 80px;
-}
-.stories-card{
+    
+} */
+
+/* .stories-card{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    /* grid-template-rows: repeat(2,3fr); */
+    grid-template-rows: repeat(2,3fr);
     gap: 30px;
-}
-.stories-title{
-    color: #000000;
-    font-size: 2.9rem;
-    font-weight: bold;
-    line-height: 3.5rem;
-    text-align: center;
-}
+    max-width: 100%;
+} */
+/*  
+
 .stories-card-1{
     grid-row: span 2;
     background-color: #ffffff;
     width: 540px;
+    padding-bottom: 30px;
     
-}
-.stories-card-2, .stories-card-3, .stories-card-4, .stories-card-5{
-    background-color: #ffffff;
 }
 
 .stories-card-title-1{
@@ -285,6 +283,8 @@ nav ul li a{
     margin-top: 33px;
     padding: 30px 30px 0 30px;
 }
+
+
 .stories-card-description{
     font-size: 1rem;
     line-height: 1.9rem;
@@ -293,6 +293,12 @@ nav ul li a{
     max-width: 21vw;
     padding: 30px;
     padding-bottom: 0px;
+}
+.stories-card-2, 
+.stories-card-3, 
+.stories-card-4, 
+.stories-card-5{
+    background-color: #ffffff;
 }
 .stories-btn{
     border: none;
@@ -310,11 +316,15 @@ nav ul li a{
 .stories-card-item{
     border-radius: 15px;
 } 
-.stories-card-2{
+
+
+.stories-card-item{
     max-width: 290px;
     text-align: left;
+    max-width: 100%;
 
 }
+
 .stories-card-title-2{
     margin: 20px 38px 30px 38px;
     font-size: 1.3rem;
@@ -329,8 +339,8 @@ nav ul li a{
 .stories-card-2-btn{
     background-color: #95B226;
     margin: 0px 38px 0px 38px;
-}
-#s-btn-color{
+} */
+/* #s-btn-color{
     background-color: #5D58F0;
 }
 #card-btn-1{
@@ -339,7 +349,7 @@ nav ul li a{
 
 #card-rem{
     margin-top: -30px;
-}
+} */
 .our-stories-btn{
     text-align: center;
     padding: 90px 0 50px 0;
@@ -352,11 +362,103 @@ nav ul li a{
     margin: auto;
 
 }
+/* OUR STORIES LATEST NEW VERSION CODE HERE  */
+
+/* .stories-title h3{
+    color: #000000;
+    font-size: 2.9rem;
+    font-weight: bold;
+    line-height: 3.5rem;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.stories-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+} 
+
+.stories-card-1{
+    grid-row: span 2;
+    
+} */
+
+
+
+/* OUR STORIES NEW LATEST AFTER HTML RECODE  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer start  */
 footer{
     background-color: #01ACFD;
-    padding: 112px 0 150px 0;
+    padding: 110px 0 130px 0;
 }
 
 .footer-content{
@@ -408,9 +510,6 @@ ul li a{
     font-size: 1.25rem;
 }
 
-ul li a:nth-child(4){
-    font-size: 300px;
-}
 
 .icon-title{
     font-size: 1.7rem;
@@ -464,12 +563,17 @@ ul li a:nth-child(4){
     display: none;
    }
 
-   .stories-card{
+   /* .stories-card{
     grid-template-columns: repeat(2,1fr);
     padding: 0 20px;
    }
+   .stories-card-item{
+    max-width: 100%;
+   } */
    /* footer  */
-
+   footer{
+   max-width: 100%;
+   }
    .footer-content{
     flex-direction: column;
     padding: 20px;
